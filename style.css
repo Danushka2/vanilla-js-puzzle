@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin-top: 10vh;
+    background-color: #ddd;
+    /* padding: 5px; */
+    width: max-content;
+    border-style: solid;
+    border-width: medium;
+}
+
+#container div{
+    background-color: ghostwhite;
+    position: relative;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    border-style: solid;
+    border-width: medium;
+}
+
+#container-hide{
+    background-color: #ddd;
+    display: none;
+    /* padding: 5px; */
+    position: absolute;
+    left: 0%;
+    top: 10vh;
+    width: max-content;
+    border-style: solid;
+    border-width: medium;    
+}
+
+#container-hide div{
+    background-color: ghostwhite;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: medium;
+}
+
+#actions{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+img{
+    object-fit: fill;
+    position: relative;
+}
+
+#win{
+    color: red;
+}
+
+#btn-shuffle{
+    display: none;
+}
+
+#btn-hide{
+    display: none;
+}
