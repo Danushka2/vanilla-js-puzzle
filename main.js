@@ -128,12 +128,13 @@ function shuffle( ){
 
 function allowDrop(ev) {
     var flag = false;
+    var number;
     var myNode = document.getElementById( ev.target.id ).parentNode.id;
     var noOfNodes = document.getElementById( myNode ).childNodes.length;
 
     let allowedSquares = [];    
 
-    let number = getFrom.match(/\d+/);
+    number = getFrom.match(/\d+/);
     console.log(number[0]);
     console.log(inputValue);
 
