@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <div id="container"></div>
+
+    <div id = "actions">
+        <h1 id="win"></h1>
+        <input type="text" id="rows">
+        <button id="btn-create" onclick="Create()">Create</button>
+        <button id="btn-shuffle" onclick="shuffle()">Shuffle</button>
+        <button id="btn-hide" onmouseover="correct()" onmouseout="hide()">Correct</button>
+    </div>
+
+    <div id="container-hide"></div>
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
