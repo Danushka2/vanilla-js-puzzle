@@ -6,20 +6,20 @@ body{
 #container{
     margin-top: 10vh;
     background-color: #ddd;
-    /* padding: 5px; */
     width: max-content;
     border-style: solid;
     border-width: medium;
 }
 
 #container div{
+    background-repeat: no-repeat;
     background-color: ghostwhite;
     position: relative;
     margin-left: 2px;
     margin-right: 2px;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     padding: 1px;
     cursor: pointer;
@@ -31,7 +31,6 @@ body{
 #container-hide{
     background-color: #ddd;
     display: none;
-    /* padding: 5px; */
     position: absolute;
     left: 0%;
     top: 10vh;
@@ -41,15 +40,16 @@ body{
 }
 
 #container-hide div{
+    background-repeat: no-repeat;
     background-color: ghostwhite;
+    position: relative;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     text-align: center;
     padding: 1px;
     cursor: pointer;
-    position: relative;
     margin-left: 2px;
     margin-right: 2px;
     border-style: solid;
